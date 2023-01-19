@@ -9,9 +9,6 @@ description: |
   
 ssl: true
 
-globals:
-  PASSWORD_DB: ${fn.password}
-
 nodes:
   - image: yoanbernabeu/hellokaamelott:latest
     count: 1
